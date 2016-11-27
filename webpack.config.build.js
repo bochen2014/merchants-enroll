@@ -25,7 +25,10 @@ var config = {
             exclude:/node_modules/,
             query: {
                 presets: ['es2015', 'stage-0', 'react'],
-                plugins: ["transform-class-properties","transform-runtime","babel-plugin-transform-decorators-legacy",["antd",{libraryName:"antd",style:"css"}]]
+                plugins: ["transform-class-properties",
+                "transform-runtime",
+                "babel-plugin-transform-decorators-legacy",
+                ["antd",{libraryName:"antd",style:"css"}]]
             },
             include:__dirname
         }, {
